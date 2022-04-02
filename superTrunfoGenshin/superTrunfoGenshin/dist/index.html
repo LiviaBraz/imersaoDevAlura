@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - SuperTrunfo - Genshin</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header class="heafer-page">
+  <h1> SUPER TRUNFO </h1>
+  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Genshin_Impact_logo.svg/2560px-Genshin_Impact_logo.svg.png" alt="">
+</header>
+
+<div class="div-scoreboard">
+  <div id="scoreboardPlayer" class="scoreboard">
+    <p> Viajante </p>
+    <p id="ptsPlayer">0</p>
+  </div>
+  <div id="scoreboardBot" class="scoreboard">
+    <p id="enemies"></p>
+    <p id="ptsBot">0</p>
+  </div>
+</div>
+
+<section id="board"></section>
+
+<button onclick="play()" id="btn-play">JOGAR</button>
+
+<div class="msg">
+  <small></small>
+  <p class="msgText"></p>
+  <span class="time"></span>
+</div>
+
+<section>
+  <h2> CARTAS USADAS <span id="useTotal">()</span></h2>
+
+  <div class="listUse" id="cardUsed"></div>
+</section>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
